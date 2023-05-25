@@ -2,4 +2,5 @@ version: "3.0"
 
 services:
   python-app:
+    image: ${DOCKER_USR}/week10
     build: .
